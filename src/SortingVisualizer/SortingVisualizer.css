@@ -1,0 +1,167 @@
+/* .array-container { 
+  justify-content: center; 
+  align-items: center; 
+    position:relative; 
+     
+   
+  } */ 
+   
+  /* 0 2px */ 
+  /* .array-bar { 
+    background-color: limegreen; 
+    display: inline-block; 
+    border-radius: 5px; 
+    position: relative; 
+    top:50px ; 
+    width: 20px; 
+    margin: 20px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  } */ 
+   
+  /* .bar-value { 
+    margin-bottom: 5px; /* Adjust the spacing between value and the bar's top */ 
+    */ 
+   
+    .visualizer-container { 
+     display: flex; 
+     flex-direction: column; 
+     align-items: center; 
+     padding: 20px; 
+     width: 100%; 
+   } 
+    
+   .array-container { 
+     display: flex; 
+     flex-direction: row; /* Ensure bars are in a row */ 
+     align-items: center; /* Align bars to the bottom of the container flex-end*/ 
+     justify-content: center; /* Center bars horizontally */ 
+     position:absolute; 
+     width: 100%; 
+   } 
+    
+   .array-bar { 
+     background-color: limegreen; 
+     display: inline-block; 
+     border-radius: 5px; 
+     position:absolute; 
+     width: 25px; 
+     margin: 0 3px; /* Adjust spacing between bars */ 
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+     position: relative; 
+     top: 40px; 
+   } 
+    
+   .bar-value { 
+     position: absolute; 
+     bottom: 100%; /* Position value above the bar */ 
+     left: 50%; 
+     transform: translateX(-50%); 
+     padding: 2px; 
+     font-size: 12px;   
+   } 
+    
+   /* Other styles remain unchanged */ 
+    
+   header{ 
+     position: relative; 
+     top: 50px; 
+   } 
+   button{ 
+     background-color: #2196f3; /* Blue button */ 
+     color: white; 
+     border: none; 
+     padding: 10px 20px; 
+     margin: 3px; 
+     border-radius: 5px; 
+     font-size: 16px; 
+     cursor: pointer; 
+     transition: all 0.2s ease-in-out; 
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  
+   } 
+   .speedcontrol{ 
+     background-color: #0a0d0f; /* Blue button */ 
+     color: white; 
+     border: none; 
+     padding: 10px 20px; 
+     margin: 3px; 
+     margin-left: 6px; 
+     border-radius: 5px; 
+     font-size: 16px; 
+     cursor: pointer; 
+     transition: all 0.2s ease-in-out; 
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+   } 
+   .speedcontrol:hover{ 
+     background-color: #060606;/* Darker shade on hover */ 
+     transform: scale(1.05);  
+       box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+   } 
+   button:hover{ 
+     background-color: #166abd;/* Darker shade on hover */ 
+   transform: scale(1.05);  
+     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+  
+   } 
+  
+   .light-theme { 
+     background-color: #cde2f9; 
+     color:#1A1A2E ; 
+     padding-bottom: 70px; 
+  
+ } 
+  
+ .dark-theme { 
+     background-color: #1A1A2E; 
+     color: rgb(251, 249, 249); 
+     padding-bottom: 100px; 
+ } 
+  
+ .navbar { 
+   color: white; 
+     display: flex; 
+     justify-content:space-between; 
+     align-items: center; 
+     text-align: center; 
+     padding: 20px 20px; 
+     background-color: #050505; 
+     border-bottom: 1px solid #fbfbfb; 
+ } 
+  
+ .navbar h1 { 
+     margin: 0; 
+ padding-left: 510px;     
+     font-size: 40px; 
+     font-family: 'CustomFont'; 
+   src: url('C:\Users\asus\Desktop\Sorting\sorting\src\Abril_Fatface,Caveat\Abril_Fatface/AbrilFatface-Regular.ttf') 
+    
+      
+ } 
+  
+  
+  
+ .navbar button { 
+   padding: 5px 10px; 
+     background-color: #007bff; 
+     color: white; 
+     border: none; 
+     border-radius: 5px; 
+     cursor: pointer; 
+ } 
+  
+ .navbar button:hover { 
+     background-color: #0056b3; 
+ } 
+  
+  
+  
+   .footer { 
+     text-align: center; 
+     padding: 30px 30px; 
+     background-color: #000000; 
+     color: white; 
+     position: relative; 
+     top: 100px; 
+     bottom: 0; 
+     width: 100%; 
+   }
